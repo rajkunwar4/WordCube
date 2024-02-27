@@ -7,7 +7,7 @@ body{
     background-color: hsl(240, 3%, 7%);
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
+    m-height: 100vh;
     margin: 0;
     padding: 1em;
     font-size: clamp(.5rem,2.5vmin,1.5rem);
