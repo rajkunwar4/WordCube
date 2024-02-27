@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WordCube</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAh1BMVEUAAAD///97tnfavEWAvXzjxEcjIyOCvH4jKSNLS0sgIyASEhIkIx0lLSQ9PT0rNisqOCnl5eUdHR1hYWHBwcFmZmYnJh7sy0qFxIGAgICOjo62trbp6elvnmywsLAwMDDQ0NB8fHx8snjb29ujo6N0dHTy8vIQEBAFAAZPa01EW0JghV2QkJCpYyygAAADq0lEQVR4nO3da1PaUBCA4XMsBhW1Hi5quCpeKMr//30FrbInhnZZQ3Ng3vdbUrOzz4AYZ8zU+UJhnHcmLbePtSadfByKIBfz+lnda367rB82CkOn7u0qqhPKhYu6F6uwfolwOKl7q0qbDIvCbt0rVV43Fg7q3mcHDaTw8F7BVd21MNS9y44Kn8J23avsqOxDmNe9yc7K34Ul79HsdNvk1VtfXNGYkvux8CbsFeF3xVs7RfJO1nD5R2JKy3D5XfHt2FsJh4Vzz6bV0hB6/1x4vYZLYT8682hcLRWh94+RZ7EURh+kVmBCwpjY9i76nHkyr5aQ0D9JUnBjeWj7HlyVkvBZkgZOfvrc21dLSejvxZjcyd96LT8m/pSU8E6M6bismtWSEsoxmZtVMzMtoUSJke7yGzPTEl668hD+LYTKECpDaAmhMoTKEFpCqAyhMoSWECpDqAyhJYTKECpDaAmhMoTKEFpCqAyhMoSWECpDqAyhJYTKECpDaAmhMoTKEFpCqAyhMoSWECpDqGyT0GX20h1DREREROVdn1u7lmPO7G3arKI77+ubY2s3gnhy27B2e7Vb4fnxD2vH50LYPLLWQIgQIUKECBEiRIgQIUKECBEiRIgQIUKECBEiRIgQIUKECBEiRIgQIUKECBEiRIgQIUKECBEiRPhfhQk/M1NV6T73RERERHQIzS7syTn1j5m58q5um+ZO1mPO7GNuxR3liX2ZjXfeVw3z7yuR0D6mEQntYxAaQqhdDaFyDEJDCLWrIVSOQWgIoXY1hMoxCA0h1K6GUDkGoSGE2tUQKscgNIRQuxpC5RiEhhBqV0OoHIPQEELtagiVYxAaQqhdDaFyDEJDCLWrIVSOQWgIoXY1hMoxCA0h1K62C6H4c9oL+8y0hHKblhP/K+kv88jEhEfiFcxcRxyNzCPTEo6EqeNycTQ375aUsDEXptwNxJGbWocmJZxK0sAFefhiXS4lYeNFkoLzbXn8atwuIWHjVYLa3vm+PGElpiOMgW6xFA6jM24+tSyYirAxncec4VLoe/E5Nx8dNbd+Pjx6Zsb+mLkUbj2meTQq+FzPr4TBfens57bJq6/syTFb71DykHp4E/r8678cSH3/Low/Tg+otv8QlrxPD6LwKfTdunfZSV2/FvrBv79+7xp4KTzAV7HrY6EP2b8v2qOy4ItC7xd1b1VhizVLCP2weHezr/WCLxcujf39/9HY7g8jUyxc9jDOT1ubnvZOu1nrNB8/FEG/AS02PFJ95gGAAAAAAElFTkSuQmCC" type="image/x-icon">
+</head>
+
+<body>
+
+    <div class="alert-container" data-alert-container>
+       
+    </div>
+    <div data-guess-grid class="guess-grid">
+        <div class="tile" ></div>
+        <div class="tile" ></div>
+        <div class="tile" ></div>
+        <div class="tile" ></div>
+        <div class="tile"></div>
+        <div class="tile"></div>
+        <div class="tile"></div>
+        <div class="tile"></div>
+        <div class="tile"></div>
+        <div class="tile"></div>
+        <div class="tile"></div>
+        <div class="tile"></div>
+        <div class="tile"></div>
+        <div class="tile"></div>
+        <div class="tile"></div>
+        <div class="tile"></div>
+        <div class="tile"></div>
+        <div class="tile"></div>
+        <div class="tile"></div>
+        <div class="tile"></div>
+        <div class="tile"></div>
+        <div class="tile"></div>
+        <div class="tile"></div>
+        <div class="tile"></div>
+        <div class="tile"></div>
+        <div class="tile"></div>
+        <div class="tile"></div>
+        <div class="tile"></div>
+        <div class="tile"></div>
+        <div class="tile"></div>
+    </div>
+    <div  data-keyboard class="keyboard">
+        <!-- first line -->
+        <button class="key" data-key="Q">Q</button>
+        <button class="key" data-key="W">W</button>
+        <button class="key" data-key="E">E</button>
+        <button class="key" data-key="R">R</button>
+        <button class="key" data-key="T">T</button>
+        <button class="key" data-key="Y">Y</button>
+        <button class="key" data-key="U">U</button>
+        <button class="key" data-key="I">I</button>
+        <button class="key" data-key="O">O</button>
+        <button class="key" data-key="P">P</button>
+        <!-- second line -->
+        <div class="space"></div>
+        <button class="key" data-key="A">A</button>
+        <button class="key" data-key="S">S</button>
+        <button class="key" data-key="D">D</button>
+        <button class="key" data-key="F">F</button>
+        <button class="key" data-key="G">G</button>
+        <button class="key" data-key="H">H</button>
+        <button class="key" data-key="J">J</button>
+        <button class="key" data-key="K">K</button>
+        <button class="key" data-key="L">L</button>
+        <div class="space"></div>
+        <!-- third line -->
+        <button class="key large " data-enter>ENTER</button>
+        <button class="key" data-key="Z">Z</button>
+        <button class="key" data-key="X">X</button>
+        <button class="key" data-key="C">C</button>
+        <button class="key" data-key="V">V</button>
+        <button class="key" data-key="B">B</button>
+        <button class="key" data-key="N">N</button>
+        <button class="key" data-key="M">M</button>
+        
+        <button class="key large" data-delete><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24">
+            <path fill="var(--color-tone-1)" d="M22 3H7c-.69 0-1.23.35-1.59.88L0 12l5.41 8.11c.36.53.9.89 1.59.89h15c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H7.07L2.4 12l4.66-7H22v14zm-11.59-2L14 13.41 17.59 17 19 15.59 15.41 12 19 8.41 17.59 7 14 10.59 10.41 7 9 8.41 12.59 12 9 15.59z"></path>
+          </svg></button>
+        
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
