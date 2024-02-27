@@ -203,6 +203,6 @@ body{
 
 @media only screen and (max-width: 600px) {
     .guess-grid{
-       flex-grow: .3;
+       flex-grow: .7;
     }
   }
