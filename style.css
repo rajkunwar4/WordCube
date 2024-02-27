@@ -200,9 +200,3 @@ body{
     opacity: 0;
 }
 
-
-@media only screen and (max-width: 600px) {
-    .guess-grid{
-       flex-grow: .7;
-    }
-  }
