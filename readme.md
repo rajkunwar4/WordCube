@@ -6,6 +6,8 @@ Welcome to Word Cube, a word-guessing game inspired by the popular Wordle!
 
 Word Cube is a challenging and fun word-guessing game where players try to guess a hidden word by entering guesses and receiving feedback on correct letters and their positions.
 
+Live link:
+https://word-cube.vercel.app
 ## Features
 
 - **Word Cube Grid**: A 3D cube grid where each face represents a letter in the hidden word.
